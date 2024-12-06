@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sai Heaven Homes - Tours & Travels</title>
+   <style>
+      /* General Reset */
+      * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+      }
+
+      body {
+         font-family: 'Poppins', sans-serif;
+         background-color: #f8f9fa;
+         color: #333;
+         line-height: 1.6;
+      }
+
+      /* Header */
+      header {
+         background: linear-gradient(135deg, #4facfe, #00f2fe);
+         color: white;
+         padding: 3rem 1rem;
+         text-align: center;
+         border-bottom-left-radius: 50px;
+         border-bottom-right-radius: 50px;
+      }
+
+      header h1 {
+         font-size: 2.8rem;
+         font-weight: bold;
+      }
+
+      header p {
+         font-size: 1.2rem;
+         margin-top: 0.5rem;
+      }
+
+      /* Navigation */
+      nav {
+         display: flex;
+         justify-content: center;
+         padding: 1rem 0;
+         background-color: white;
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+         position: sticky;
+         top: 0;
+         z-index: 1000;
+      }
+
+      nav a {
+         color: #333;
+         text-decoration: none;
+         margin: 0 20px;
+         font-size: 1.1rem;
+         font-weight: bold;
+         transition: color 0.3s ease;
+      }
+
+      nav a:hover {
+         color: #00bcd4;
+      }
+
+      /* Hero Section */
+      .hero {
+         position: relative;
+         background: url('a.jpg') no-repeat center center/cover;
+         height: 80vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: white;
+         text-align: center;
+      }
+
+      .hero h2 {
+         font-size: 3rem;
+         margin-bottom: 1rem;
+         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .hero p {
+         font-size: 1.5rem;
+      }
+
+      /* Cards Section */
+      .cards {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+         gap: 1.5rem;
+         padding: 2rem;
+         background: #fff;
+      }
+
+      .card {
+         background: #fff;
+         border-radius: 15px;
+         overflow: hidden;
+         box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+         transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .card:hover {
+         transform: scale(1.05);
+         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .card img {
+         width: 100%;
+         height: 200px;
+         object-fit: cover;
+      }
+
+      .card h3 {
+         font-size: 1.5rem;
+         margin: 1rem;
+      }
+
+      .card p {
+         margin: 0 1rem 1.5rem;
+         color: #555;
+      }
+
+      /* Footer */
+      footer {
+         background: linear-gradient(135deg, #00f2fe, #4facfe);
+         color: white;
+         text-align: center;
+         padding: 1.5rem 1rem;
+         margin-top: 2rem;
+      }
+
+      footer p {
+         margin: 0.5rem 0;
+      }
+
+      footer a {
+         color: #ffe600;
+         text-decoration: none;
+      }
+
+      footer a:hover {
+         text-decoration: underline;
+      }
+   </style>
+</head>
+
+<body>
+   <header>
+      <h1>Sai Heaven Homes</h1>
+      <p>Your gateway to unforgettable travel experiences</p>
+   </header>
+   <nav>
+      <a href="#home">Home</a>
+      <a href="#destinations">Destinations</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+   </nav>
+   <div class="hero">
+      <div>
+         <h2>Explore the World with Sai Heaven Homes</h2>
+         <p>Discover breathtaking destinations and create lasting memories.</p>
+      </div>
+   </div>
+   <section class="cards">
+      <div class="card">
+         <img src="https://source.unsplash.com/300x200/?beach,travel" alt="Beach Destination">
+         <h3>Exotic Beaches</h3>
+         <p>Relax and unwind at the world's most beautiful beaches.</p>
+      </div>
+      <div class="card">
+         <img src="https://source.unsplash.com/300x200/?mountains,travel" alt="Mountain Destination">
+         <h3>Majestic Mountains</h3>
+         <p>Experience serenity and adventure in breathtaking mountains.</p>
+      </div>
+      <div class="card">
+         <img src="https://source.unsplash.com/300x200/?city,travel" alt="City Destination">
+         <h3>Vibrant Cities</h3>
+         <p>Explore the culture, cuisine, and life of global cities.</p>
+      </div>
+   </section>
+   <footer>
+      <p>Contact us at <a href="tel:8669009332">8669009332</a></p>
+      <p>&copy; 2024 Sai Heaven Homes. All rights reserved.</p>
+   </footer>
+</body>
+
+</html>
